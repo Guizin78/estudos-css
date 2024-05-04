@@ -1,0 +1,21 @@
+body{
+    font-family: 'Oswald', sans-serif;
+}
+.container{
+background-color: black;
+width: 400px;
+color: white;
+
+/*Margin: Margem entre o elemento e a interface  */
+
+margin: auto;
+
+/* padding: espaçamento interno */
+
+padding: 30px;
+
+/* Border: Borda do elemento */
+
+border: 5px solid red;
+
+}

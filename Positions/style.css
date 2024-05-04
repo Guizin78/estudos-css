@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+body{
+font-family: 'Times New Roman', Times, serif;
+height: 180vh;
+}
+
+/* 1.Static */
+.Estudo-h1{
+    width: 700px;
+    color: white;
+    background-color: black;
+    border: 10px solid red ;
+    margin: auto;
+border-radius: 5px;
+padding: 50px;
+text-align: center;
+position: static;
+}
+
+/* 
+1. Por Padrão: Temos o Static, ou seja, estatico. Position: static;.
+
+2. Relative: O elemento é posicionado em relação a sua posição padrão
+(Top, Bottom, Left, Right).
+
+3. Absolute: Posiocionado em relação ao seu elemento pai mais proximo que possui relative
+se não ter o relative é posicionado em relação ao body.
+
+4. Fixed: É posicionado em realação ao viewport ( éa aare do browser onde aparece no seu site)
+sempre fica na mesmaposição, mesmo que o site tenha scroll.
+
+5. Sticky: posicionad em realação a posição do scroll.
+*/
+
+/* 2.Relative
+.area{
+    position: ;
+    width: 200px;
+height: 80px;
+    background: green;
+    top: 150px;
+    right: 40px;
+} */
+
+/* 3.Absolute:
+
+.absolutezinho{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border: 5px solid blue;
+} */
+
+/* 4. Fixed:
+.area{
+    position: ;
+    width: 200px;
+height: 80px;
+    background: green;
+    top: 150px;
+    right: 40px;
+} */
+
+
+header{
+    background-color: aqua;
+    width: 100%;
+
+    top: 0;
+    position: sticky;
+}
